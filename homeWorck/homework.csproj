@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F66EBDC8-DCC8-47F2-B3B5-F8EF30C7AD94}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>homeWorck</RootNamespace>
+    <AssemblyName>homeWorck</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="folderWhithHomeWork\Screen1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen1.Designer.cs">
+      <DependentUpon>Screen1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen10.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen10.Designer.cs">
+      <DependentUpon>Screen10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen11.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen11.Designer.cs">
+      <DependentUpon>Screen11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen12.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen12.Designer.cs">
+      <DependentUpon>Screen12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen13.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen13.Designer.cs">
+      <DependentUpon>Screen13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen14.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen14.Designer.cs">
+      <DependentUpon>Screen14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen15.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen15.Designer.cs">
+      <DependentUpon>Screen15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen16.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen16.Designer.cs">
+      <DependentUpon>Screen16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen17.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen17.Designer.cs">
+      <DependentUpon>Screen17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen18.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen18.Designer.cs">
+      <DependentUpon>Screen18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen19.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen19.Designer.cs">
+      <DependentUpon>Screen19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen20.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen20.Designer.cs">
+      <DependentUpon>Screen20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen21.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen21.Designer.cs">
+      <DependentUpon>Screen21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen22.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen22.Designer.cs">
+      <DependentUpon>Screen22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen23.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen23.Designer.cs">
+      <DependentUpon>Screen23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen24.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen24.Designer.cs">
+      <DependentUpon>Screen24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen25.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen25.Designer.cs">
+      <DependentUpon>Screen25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen26.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen26.Designer.cs">
+      <DependentUpon>Screen26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen27.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen27.Designer.cs">
+      <DependentUpon>Screen27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen28.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen28.Designer.cs">
+      <DependentUpon>Screen28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen29.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen29.Designer.cs">
+      <DependentUpon>Screen29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen3.Designer.cs">
+      <DependentUpon>Screen3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen30.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen30.Designer.cs">
+      <DependentUpon>Screen30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen32.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen32.Designer.cs">
+      <DependentUpon>Screen32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen33.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen33.Designer.cs">
+      <DependentUpon>Screen33.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen34.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen34.Designer.cs">
+      <DependentUpon>Screen34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen35.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen35.Designer.cs">
+      <DependentUpon>Screen35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen36.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen36.Designer.cs">
+      <DependentUpon>Screen36.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen37.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen37.Designer.cs">
+      <DependentUpon>Screen37.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen38.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen38.Designer.cs">
+      <DependentUpon>Screen38.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen39.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen39.Designer.cs">
+      <DependentUpon>Screen39.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen4.Designer.cs">
+      <DependentUpon>Screen4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen40.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen40.Designer.cs">
+      <DependentUpon>Screen40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen41.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen41.Designer.cs">
+      <DependentUpon>Screen41.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen42.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen42.Designer.cs">
+      <DependentUpon>Screen42.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen44.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen44.Designer.cs">
+      <DependentUpon>Screen44.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen45.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen45.Designer.cs">
+      <DependentUpon>Screen45.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen46.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen46.Designer.cs">
+      <DependentUpon>Screen46.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen47.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen47.Designer.cs">
+      <DependentUpon>Screen47.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen48.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen48.Designer.cs">
+      <DependentUpon>Screen48.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen49.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen49.Designer.cs">
+      <DependentUpon>Screen49.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen5.Designer.cs">
+      <DependentUpon>Screen5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen50.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen50.Designer.cs">
+      <DependentUpon>Screen50.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen51.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen51.Designer.cs">
+      <DependentUpon>Screen51.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen52.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen52.Designer.cs">
+      <DependentUpon>Screen52.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen53.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen53.Designer.cs">
+      <DependentUpon>Screen53.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen54.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen54.Designer.cs">
+      <DependentUpon>Screen54.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen55.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen55.Designer.cs">
+      <DependentUpon>Screen55.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen56.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen56.Designer.cs">
+      <DependentUpon>Screen56.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen57.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen57.Designer.cs">
+      <DependentUpon>Screen57.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen58.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen58.Designer.cs">
+      <DependentUpon>Screen58.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen59.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen59.Designer.cs">
+      <DependentUpon>Screen59.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen6.Designer.cs">
+      <DependentUpon>Screen6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen61.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen61.Designer.cs">
+      <DependentUpon>Screen61.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen62.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen62.Designer.cs">
+      <DependentUpon>Screen62.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen63.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen63.Designer.cs">
+      <DependentUpon>Screen63.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen8.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen8.Designer.cs">
+      <DependentUpon>Screen8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen9.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen9.Designer.cs">
+      <DependentUpon>Screen9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen43.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="folderWhithHomeWork\Screen43.Designer.cs">
+      <DependentUpon>Screen43.cs</DependentUpon>
+    </Compile>
+    <Compile Include="homeWorck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homeWorck.Designer.cs">
+      <DependentUpon>homeWorck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screen31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen31.Designer.cs">
+      <DependentUpon>Screen31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen39.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen39.Designer.cs">
+      <DependentUpon>Screen39.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen40.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen40.Designer.cs">
+      <DependentUpon>Screen40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen60.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen60.Designer.cs">
+      <DependentUpon>Screen60.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen64.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen64.Designer.cs">
+      <DependentUpon>Screen64.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen65.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen65.Designer.cs">
+      <DependentUpon>Screen65.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen1.resx">
+      <DependentUpon>Screen1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen10.resx">
+      <DependentUpon>Screen10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen11.resx">
+      <DependentUpon>Screen11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen12.resx">
+      <DependentUpon>Screen12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen13.resx">
+      <DependentUpon>Screen13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen14.resx">
+      <DependentUpon>Screen14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen15.resx">
+      <DependentUpon>Screen15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen16.resx">
+      <DependentUpon>Screen16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen17.resx">
+      <DependentUpon>Screen17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen18.resx">
+      <DependentUpon>Screen18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen19.resx">
+      <DependentUpon>Screen19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen20.resx">
+      <DependentUpon>Screen20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen21.resx">
+      <DependentUpon>Screen21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen22.resx">
+      <DependentUpon>Screen22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen23.resx">
+      <DependentUpon>Screen23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen24.resx">
+      <DependentUpon>Screen24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen25.resx">
+      <DependentUpon>Screen25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen26.resx">
+      <DependentUpon>Screen26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen27.resx">
+      <DependentUpon>Screen27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen28.resx">
+      <DependentUpon>Screen28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen29.resx">
+      <DependentUpon>Screen29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen3.resx">
+      <DependentUpon>Screen3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen30.resx">
+      <DependentUpon>Screen30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen32.resx">
+      <DependentUpon>Screen32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen33.resx">
+      <DependentUpon>Screen33.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen34.resx">
+      <DependentUpon>Screen34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen35.resx">
+      <DependentUpon>Screen35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen36.resx">
+      <DependentUpon>Screen36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen37.resx">
+      <DependentUpon>Screen37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen38.resx">
+      <DependentUpon>Screen38.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen39.resx">
+      <DependentUpon>Screen39.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen4.resx">
+      <DependentUpon>Screen4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen40.resx">
+      <DependentUpon>Screen40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen41.resx">
+      <DependentUpon>Screen41.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen42.resx">
+      <DependentUpon>Screen42.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen44.resx">
+      <DependentUpon>Screen44.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen45.resx">
+      <DependentUpon>Screen45.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen46.resx">
+      <DependentUpon>Screen46.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen47.resx">
+      <DependentUpon>Screen47.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen48.resx">
+      <DependentUpon>Screen48.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen49.resx">
+      <DependentUpon>Screen49.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen5.resx">
+      <DependentUpon>Screen5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen50.resx">
+      <DependentUpon>Screen50.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen51.resx">
+      <DependentUpon>Screen51.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen52.resx">
+      <DependentUpon>Screen52.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen53.resx">
+      <DependentUpon>Screen53.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen54.resx">
+      <DependentUpon>Screen54.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen55.resx">
+      <DependentUpon>Screen55.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen56.resx">
+      <DependentUpon>Screen56.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen57.resx">
+      <DependentUpon>Screen57.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen58.resx">
+      <DependentUpon>Screen58.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen59.resx">
+      <DependentUpon>Screen59.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen6.resx">
+      <DependentUpon>Screen6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen61.resx">
+      <DependentUpon>Screen61.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen62.resx">
+      <DependentUpon>Screen62.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen63.resx">
+      <DependentUpon>Screen63.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen8.resx">
+      <DependentUpon>Screen8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen9.resx">
+      <DependentUpon>Screen9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="folderWhithHomeWork\Screen43.resx">
+      <DependentUpon>Screen43.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homeWorck.resx">
+      <DependentUpon>homeWorck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Screen31.resx">
+      <DependentUpon>Screen31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen39.resx">
+      <DependentUpon>Screen39.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen40.resx">
+      <DependentUpon>Screen40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen60.resx">
+      <DependentUpon>Screen60.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen64.resx">
+      <DependentUpon>Screen64.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen65.resx">
+      <DependentUpon>Screen65.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="myImg\i %282%29_11zon.jpg" />
+    <Content Include="myImg\i_11zon.jpg" />
+    <Content Include="myImg\poryv.jpg" />
+    <Content Include="Resources\exit.png" />
+    <Content Include="Resources\exitToo.png" />
+    <Content Include="textFile\Text Document30.txt" />
+    <Content Include="textFile\Text Document31.txt" />
+    <Content Include="textFile\Text Document33.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
